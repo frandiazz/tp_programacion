@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import Skills from './components/Skills.jsx'
 
 function App() {
   const misDatos = {
@@ -19,6 +20,7 @@ function App() {
         presentacion={misDatos.presentacion}
       />
       <About />
+      <Skills />
     </>
   )
 }

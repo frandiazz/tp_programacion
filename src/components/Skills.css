@@ -1,0 +1,35 @@
+.habilidades {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 56px 24px;
+  text-align: center;
+}
+
+.habilidades__lista {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.habilidades__item {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.habilidades__item strong {
+  color: #0f172a;
+  font-size: 17px;
+}
+
+.habilidades__item span {
+  color: #64748b;
+  font-size: 14px;
+}
