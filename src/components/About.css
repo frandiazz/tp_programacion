@@ -1,0 +1,43 @@
+.sobre-mi {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px;
+  text-align: center;
+}
+
+.sobre-mi__texto,
+.sobre-mi__extra p {
+  color: #475569;
+  line-height: 1.7;
+}
+
+.sobre-mi__extra {
+  animation: aparecer 0.3s ease;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sobre-mi__boton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #2563eb;
+  background-color: #ffffff;
+  color: #2563eb;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sobre-mi__boton:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
