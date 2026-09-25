@@ -1,0 +1,36 @@
+.footer {
+  margin-top: 40px;
+  padding: 40px 24px;
+  background-color: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+}
+
+.footer__titulo {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0 0 16px;
+}
+
+.footer__enlaces {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__enlaces a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer__enlaces a:hover {
+  text-decoration: underline;
+}
+
+.footer__nota {
+  margin: 24px 0 0;
+  font-size: 14px;
+  color: #94a3b8;
+}
