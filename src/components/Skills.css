@@ -33,3 +33,9 @@
   color: #64748b;
   font-size: 14px;
 }
+
+@media (max-width: 640px) {
+  .habilidades {
+    padding: 40px 20px;
+  }
+}
